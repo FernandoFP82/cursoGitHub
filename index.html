@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>PAC_UF3_FernandoFernandezPolin</title>
+		<link type="text/css" href="style.css" rel="stylesheet">
+		<script type="text/javascript" src="tragaperras.js"></script>
+	</head>
+	<body>
+		<!-- Creamos un formulario para introducir monedas a la tragaperras-->	
+		<form action="#" method="POST" id="introducir" onsubmit="return false;">
+			<label for="monedas"><h3>Introduce monedas:</h3></label><br>
+			<input type="number" name="creditos" id="creditos">
+
+			<input type="submit" value="Introducir" id="submit"><br><br>
+		</form>
+
+		<!-- Indicador del número de monedas-->
+		<div>
+			El número actual de monedas es:
+			<h1 id="numCreditos" class="numCreditos">0</h1>
+		</div>
+
+		<!-- Botón para salir-->
+		<button id="salir" class="salir" type="button">Salir</button><br>
+
+		<!-- Sección para las imágenes de la tragaperras y de la palanca-->
+		<section id="cajas">
+			<div class="frutas">
+				<img id="caja1" src="img/pingu.png">		
+			</div>
+			<div class="frutas">
+				<img id="caja2" src="img/pingu.png">		
+			</div>
+			<div class="frutas">
+				<img id="caja3" src="img/pingu.png">		
+			</div>
+			<div id="palanca">
+				<img id="palancaUP" src="img/palancaUP.png">
+			</div>
+		</section>
+		
+		<br>
+
+		<!-- Aquí colocamos el historial de movimientos-->
+		<div>
+			<h3>Historial de movimientos</h3>	
+			<ul id="historial">
+				
+			</ul>	
+		</div>
+
+	</body>
+</html>

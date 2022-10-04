@@ -1,0 +1,38 @@
+/* Estilo para la sección de las imágenes y la palanca*/
+#cajas{
+	display: flex;
+	justify-content: flex-start;	
+}
+
+/* Redimensionamos las imágenes*/
+img{
+	position: relative;	
+	vertical-align: top;
+	width: 230px;
+	height: 230px;
+	margin: 20px;
+}
+
+/* Creamos un borde redondeado para las imágenes de la máquina*/
+.frutas{
+	border: 3px solid black;
+	border-radius: 6px;
+	margin: 8px 8px 8px 0;
+}
+
+/* Estilo para el total de monedas*/
+#numCreditos{
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 4em;
+}
+
+/* Estilo para en encabezado h3*/
+h3{
+	margin-bottom: 0;
+}
+
+/* Estilo para el botón salir*/
+.salir{
+	width: 275px;
+}
